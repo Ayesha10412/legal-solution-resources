@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaisyUI Test</title>
+    <!-- daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+      <style>
+        .eb-font {
+            font-family: "EB Garamond", serif;
+        }
+      </style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <style>
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+        }
+      </style>
+
+</head>
+<body class="poppins-regular">
+    <header>
+        <section class="w-full m-auto p-0">
+            <!-- nav container -->
+            <div class="w-4/5 m-auto mt-12 mb-28">
+
+                <div class="navbar bg-base-100 flex justify-between mb-14 ">
+                   
+                    <div class="navbar-start  ">
+<div class=" w-[70px] flex ">
+    <img class="w-full  h-[45px]" src="./images/logo.png" alt="">
+
+</div>                        
+                        <h2 class="eb-font font-extrabold text-3xl text-[#414040]">Justice</h2>
+                    </div>
+                
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 text-[#707070]">
+                        <li><a>Home</a></li>
+                        <li><a>Services <i class="fa-solid fa-greater-than"></i></a></li>
+                        <li><a> Cases <i class="fa-solid fa-greater-than"></i></a></li>
+                        <li><a>Blog <i class="fa-solid fa-greater-than"></i></a></li>
+                        <li><a> Contact Us <i class="fa-solid fa-greater-than"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn bg-[#B68C5A] text-white text-base">Free Consultation</a>
+                    </div>
+                  </div>
+<!-- hero container -->
+                  <div
+                  class="rounded-lg lg:h-[550px] bg-cover bg-gradient-to-b from-[#1111119b] to-[#111111b9]"
+                  style="background-image: url(./images/banner.png); ">
+                 
+                  <div class="hero-content text-neutral-content text-center">
+                    <div class="w-[60%] flex flex-col items-center justify-center mt-32 mb-5">
+                      <h1 class="mb-5 lg:text-6xl text-5xl  font-extrabold text-[#FFFFFF]">We Provide Effective  Legal Solutions</h1>
+                      <p class="mb-8 text-[#E7E7E7]">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                      </p>
+<div class="flex lg:flex-row  gap-3 flex-col items-center">
+    <input type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs" />
+    <button class="btn border-none bg-[#B68C5A] text-white lg:ml-4 w-full max-w-[100px]">Search</button>
+</div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+
+        </section>
+    </header>
+    <!-- main section -->
+     <main></main>
+     <!-- footer section -->
+      <footer></footer>
+</body>
+</html>
